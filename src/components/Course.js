@@ -1,5 +1,13 @@
+import Header from './Header'
+import Content from './Content'
+
 const Course = () => {
-  return <div>Course</div>
+  return (
+    <>
+      <Header />
+      <Content />
+    </>
+  )
 }
 
 export default Course
